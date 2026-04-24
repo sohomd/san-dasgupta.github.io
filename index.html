@@ -1,61 +1,256 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>San Dasgupta</title>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sankarshan Dasgupta | AI/ML Researcher</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f8fb;
+      color: #1f2937;
       line-height: 1.6;
-      color: #222;
-      padding: 0 20px;
     }
-    h1 {
-      color: #111;
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
     }
-    h2 {
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
     }
-    a {
-      color: #0066cc;
+
+    header p {
+      font-size: 18px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #1e3a8a;
       text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: #0f172a;
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #f1f5f9;
+      padding: 18px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>San Dasgupta</h1>
-
+<header>
+  <h1>Sankarshan Dasgupta</h1>
   <p>
-    Ph.D. Candidate in Computer Science focusing on Computer Vision, Deep Learning,
-    and Human-Centric AI systems.
+    AI/ML Researcher and Ph.D. Candidate in Computer Science specializing in
+    Computer Vision, Multimodal Learning, Deep Learning, and ML System Integration.
   </p>
+</header>
 
-  <h2>Research Interests</h2>
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    I am an AI/ML researcher and Ph.D. candidate at the University of Dayton with
+    4+ years of software engineering industry experience at IBM. My research focuses
+    on computer vision, multimodal AI, 3D reconstruction, human-centric neural rendering,
+    reinforcement learning, and AI systems for scientific and defense applications.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Programming</h3>
+      <p>Python, Java, C++, PL/SQL, MATLAB</p>
+    </div>
+    <div class="card">
+      <h3>AI / ML</h3>
+      <p>PyTorch, TensorFlow, CNNs, Transformers, LSTMs, LLMs</p>
+    </div>
+    <div class="card">
+      <h3>Computer Vision</h3>
+      <p>OpenCV, MediaPipe, Dlib, OpenGL</p>
+    </div>
+    <div class="card">
+      <h3>Cloud & Data</h3>
+      <p>Azure, Docker, Git, MySQL, Oracle SQL, Pandas, NumPy</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+
+  <div class="card">
+    <h3>AI/ML Researcher — ARCS Aviation</h3>
+    <p><b>Jan 2026 – May 2026</b></p>
+    <p>
+      Developed and prototyped AI methods for identity discovery, computer vision
+      pipelines, and defense-focused research proposals.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Quantum Computing Research Intern — University of Dayton Research Institute</h3>
+    <p><b>Jan 2025 – Aug 2025</b></p>
+    <p>
+      Worked on machine learning algorithms, advanced control systems, UAV modeling,
+      simulation, and testing for AFRL-supported research.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Intern — SLAC National Accelerator Laboratory</h3>
+    <p><b>Jul 2022 – Aug 2022</b></p>
+    <p>
+      Modeled LCLS instruments for x-ray interactions with nanoparticles and developed
+      simulation tools for charged particle spectrometry.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Software Engineer — IBM India Pvt. Ltd.</h3>
+    <p><b>Nov 2014 – Jul 2019</b></p>
+    <p>
+      Worked on CRM surround systems, Java WAR routing, Oracle PL/SQL procedures,
+      HTTP request handling, and SMS automation systems.
+    </p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>Ph.D. in Computer Science — University of Dayton</h3>
+    <p>GPA: 3.97 / 4.0</p>
+  </div>
+
+  <div class="card">
+    <h3>M.S. in Computer Science — University of Dayton</h3>
+    <p>GPA: 3.96 / 4.0</p>
+  </div>
+
+  <div class="card">
+    <h3>B.E. in Electronics Engineering — University of Pune</h3>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Selected Publications</h2>
   <ul>
-    <li>Computer Vision</li>
-    <li>3D Reconstruction</li>
-    <li>Neural Rendering</li>
-    <li>Reinforcement Learning</li>
+    <li>3D Face Reconstruction from Front and Profile Images for Low Computational Devices — IEEE Xplore ICCS 2021</li>
+    <li>A Fused Siamese Network for Fake Review Detection — Springer Nature / CSCI 2024</li>
+    <li>Modeling Mobile Visualization for Medical Reports of Patients with DCC — Springer Computing Conference 2025</li>
+    <li>Papers accepted at SciTech AIAA 2025 and NAECON 2025</li>
+    <li>Manuscripts under review: CVIU, MDPI Sensors, ACM Multimedia, Applied Mathematics and Computation</li>
   </ul>
+</section>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><b>HHID Dataset</b> – Human-human interaction dataset for novel view synthesis</li>
-    <li><b>CAIDE</b> – Face recognition system using ArcFace embeddings</li>
-    <li><b>AIDAR</b> – AI system for aircraft damage assessment</li>
-  </ul>
+<section id="projects">
+  <h2>Major Projects</h2>
 
-  <h2>Publications</h2>
-  <p>Coming soon.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>HHID Dataset</h3>
+      <p>Human-human interaction dataset for contact-aware novel view synthesis.</p>
+    </div>
 
+    <div class="card">
+      <h3>CAIDE</h3>
+      <p>Face recognition and identity retrieval system using ArcFace embeddings.</p>
+    </div>
+
+    <div class="card">
+      <h3>AIDAR</h3>
+      <p>AI-driven battle damage assessment and mission-readiness decision support system.</p>
+    </div>
+
+    <div class="card">
+      <h3>3D2M Dataset</h3>
+      <p>A 3D diverse mesh dataset for reconstruction and modeling research.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
   <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
+  <p><b>Email:</b> dasguptas2@udayton.edu</p>
+  <p><b>Alternate Email:</b> dasguptasan@outlook.com</p>
+  <p><b>ORCID:</b> 0000-0003-4968-483X</p>
+  <p><b>GitHub:</b> Add your GitHub link here</p>
+  <p><b>LinkedIn:</b> Add your LinkedIn link here</p>
+</section>
+
+<footer>
+  © 2026 Sankarshan Dasgupta. All rights reserved.
+</footer>
 
 </body>
 </html>
