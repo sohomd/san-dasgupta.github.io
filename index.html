@@ -80,6 +80,14 @@
       color: #1e3a8a;
     }
 
+    .card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+
     ul {
       padding-left: 20px;
     }
@@ -251,7 +259,9 @@
     </div>
 
     <div class="card">
-      <img src="assets/3D2M.png">
+      <div class="img-container">
+        <img src="assets/3D2M.png">
+      </div>
       <h3>3D2M Dataset</h3>
       <p>A 3D mesh dataset for geometric learning, reconstruction, and vision research.</p>
       <a href="https://arxiv.org/abs/2410.07415" target="_blank">View Paper</a>
